@@ -19,7 +19,8 @@ namespace ParserKinokong
 
         private void startButton_Click(object sender, EventArgs e)
         {
-
+            var pages = new Page("https://kinokong.org/filmi/boevik/", "1", "6");
+            pages.GetPages();
         }
     }
 }
